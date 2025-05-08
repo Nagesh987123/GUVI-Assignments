@@ -1,0 +1,23 @@
+1st Week Assignment
+1.	Question
+D. Book cannot be instantiated without parameters.
+We get compilation error due to creation of book class object without passing arguments of type string.
+
+2.	Question
+A.	Vehicle starting
+Since it is method, overloading there is no parameters passed in the method. 
+
+3.	Question
+B.	20 – obj2 and obj1 refer to the same variable
+The memory is allocated for the variables when they move to heap block. Here num variable is reassigned value with 20.
+        
+4.	Question
+C.NullPointerException
+              Since the string is pointing to the ‘null’ value it   
+             Invoke length() method.
+     
+5.	Question
+The output is NullPointerException
+Since in the parent class constructor declared with speak() method which again calls the overridden method in the dog class. Since ‘sound’ variable is not the member of animal class. It comes up with NullPointerException
+
+
