@@ -1,0 +1,26 @@
+1.	Answer
+It is better to use  java.util.List collection and use List interface.
+Because LinkedList follows insertion order and allows duplicate elements as well.
+We can also use ArrayList as well.
+
+2.	Answer
+We can use TreeSet java collection because it follows natural order of insertion which means it automatically sorts the elements.
+
+3.	Answer
+It is better to use LinkedHashMap which is a subclass of HashMap because LinkedHashMap maintains last access order. We can use get and put operations on it.
+
+4.	Answer
+We can use TreeMap collection with Comparator to sort the scores in descending order.
+5.	Answer
+Java Queue, LinkedList and ConcurrentLinkedQueue interfacescan be implemented since they follows first come first serve order. It also have methods like peek(), poll() which help to remove elements and access them easily.
+
+6.	Answer
+LinkedHashSet collection can be used since it ensures duplicates are not added and maintains the insertion order in which elements are added.
+
+7.	Answer
+We can use List interfaces because order of insertion is maintained in LinkedList.
+Or we can use Map collection or LinkedHashMap since it maintains insertion order.
+
+8.	Answer
+We can use PriorityQueue of Queue interface that orders its elements according to their priority. When new tasks added it sorts automatically according to their priority.
+         
