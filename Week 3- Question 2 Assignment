@@ -1,1 +1,128 @@
+index.html file
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog Post</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>My Tech Blog</h1>
+  </header>
+
+  <main>
+    <article>
+      <h2>Understanding JavaScript Closures</h2>
+      <div class="meta">
+        <span>By Jane Doe</span> | 
+        <time datetime="2025-05-20">May 20, 2025</time>
+      </div>
+
+      <p>Closures are a fundamental concept in JavaScript that allow functions to access variables from an enclosing scope.</p>
+
+      environment within which that function was declared.” — MDN
+      </blockquote>
+
+      <h3>Example:</h3>
+      <pre><code>
+function outer() {
+  let count = 0;
+  return function inner() {
+    count++;
+    console.log(count);
+  };
+}
+const counter = outer();
+counter(); // 1
+counter(); // 2
+      </code></pre>
+
+      <p>This is useful for data privacy and function factories.</p>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Tech Blog</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+------------------------------------------------
+style.css file
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background: #222;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.meta {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 1rem;
+}
+
+blockquote {
+  border-left: 4px solid #007acc;
+  padding-left: 1rem;
+  color: #555;
+  font-style: italic;
+  margin: 1rem 0;
+}
+
+pre {
+  background: #f4f4f4;
+  padding: 1rem;
+  overflow-x: auto;
+  border-radius: 5px;
+}
+
+code {
+  font-family: 'Courier New', monospace;
+  color: #c7254e;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #222;
+  color: #fff;
+  margin-top: 2rem;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  main {
+    margin: 1rem;
+    padding: 1rem;
+  }
+}
+------------------------------------
+
+script.js file
+
+
+console.log("Blog loaded successfully!");
 
